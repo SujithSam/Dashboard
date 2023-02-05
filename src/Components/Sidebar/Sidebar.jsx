@@ -22,10 +22,12 @@ const Sidebar = () => {
               key={index}
               onClick={() => setSelected(index)}
             >
-              <Link className={item.cName} to={item.url}>
-                <img src={item.icon} alt="" />
-                <span>{item.heading}</span>
-              </Link>
+              <li className="sidebar-link-tour">
+                <Link className={item.cName} to={item.url}>
+                  <img src={item.icon} alt="" />
+                  <span>{item.heading}</span>
+                </Link>
+              </li>
             </div>
           );
         })}

@@ -114,3 +114,6 @@
 .sb-links > span {
   padding-left: 20px;
 }
+.sidebar-link-tour {
+  list-style-type: none;
+}
