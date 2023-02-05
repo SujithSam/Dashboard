@@ -1,0 +1,15 @@
+/* .Cards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+} */
+.Cards {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 15px;
+}
+.ParentContainer {
+  /* display: grid; */
+  /* width: 282px;
+  height: 170px; */
+}

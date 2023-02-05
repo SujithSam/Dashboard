@@ -1,0 +1,68 @@
+.CompactCard {
+  width: 250px;
+  height: 170px;
+  /* margin: 35px; */
+  display: grid;
+  grid-template-columns: auto auto;
+  border-radius: 12px;
+  padding-left: 12px;
+  box-shadow: 0px 13px 18px rgba(57, 84, 255, 0.04);
+}
+.radialBar {
+  display: flex;
+  width: 50px;
+  height: 50px;
+}
+.class-l {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.class-r {
+  display: flex;
+  flex-direction: column;
+
+  align-items: flex-end;
+}
+
+.Details {
+  padding-right: 0;
+  margin-right: 0;
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+  padding-right: 5px;
+}
+.details-value {
+  font-weight: bold;
+}
+
+.heading {
+  padding-left: 0;
+  padding-bottom: 70px;
+  margin-left: 0;
+  font-weight: bold;
+}
+.details-img {
+  padding-bottom: 70px;
+}
+
+/* .CompactCard {
+  display: flex;
+  height: 10rem !important;
+  border-radius: 0.7rem;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 1rem;
+}
+.CompactCard{
+width: 282px;
+height: 170px;
+}
+
+.radialBar {
+  display: flex;
+  width: 70px;
+  height: 70px;
+} */

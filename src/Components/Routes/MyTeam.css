@@ -1,0 +1,204 @@
+.MyTeamO {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  position: relative;
+}
+.headerO {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding-top: 80px;
+}
+.Team-members {
+  display: flex;
+  flex-direction: column;
+}
+.Team-members > span {
+  display: flex;
+  align-items: flex-start;
+  padding-bottom: 10px;
+}
+.Team-Member-PerformanceT {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 8px;
+}
+.main-section {
+  display: grid;
+  grid-template-columns: 700px auto;
+}
+
+.Team-Member-Performance-Containercontainer {
+  background-color: #ffffff;
+  box-shadow: 0px 13px 18px rgba(57, 84, 255, 0.04);
+  border-radius: 7px;
+  width: 100%;
+  height: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex-direction: column;
+}
+.top-img {
+  display: flex;
+  padding-left: 170px;
+  /* padding-top: 5px; */
+  /* padding-left: 90px; */
+}
+.Performance-Containercontainer-Top {
+  padding-bottom: 10px;
+}
+.Performance-Containercontainer-bottoml {
+  background-color: rgba(57, 84, 255, 0.03);
+  border-radius: 0px 0px 7px 7px;
+  color: #3954ff;
+  width: 100%;
+}
+
+.PRole {
+  padding-top: 15px;
+  height: 40px;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 16px;
+  letter-spacing: 0.05em;
+}
+.RT1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 25px;
+}
+
+.RT1 > img {
+  width: 58px;
+  height: 58px;
+}
+.RT2 {
+  display: flex;
+  flex-direction: column;
+}
+.RT2-img {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding-right: 10px;
+}
+.RT2-RB {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+}
+.RT-CH {
+  width: 180px;
+  height: 180px;
+}
+.RT-CH-I {
+  font-weight: 500;
+  font-size: 9px;
+}
+.RT-CH-II {
+  font-weight: 500;
+  font-size: 9px;
+  letter-spacing: 0.17em;
+}
+.RT-CH-III {
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 139.1%;
+}
+
+.Right-Team {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  box-shadow: 0px 13px 18px rgba(57, 84, 255, 0.04);
+  border-radius: 12px;
+  margin-left: 5px;
+  margin-top: 6px;
+}
+.arrow {
+  width: 12px;
+  height: 8px;
+  padding: 10px;
+}
+.PName {
+  font-weight: 500;
+  line-height: 24px;
+  color: #1f2127;
+  font-size: 20px;
+}
+.Email {
+  font-weight: 400;
+  line-height: 17px;
+  color: rgba(31, 33, 39, 0.7);
+  font-size: 14px;
+}
+.RT3 {
+  height: 110px;
+  margin: 10px;
+
+  background: rgba(57, 84, 255, 0.05);
+  border-radius: 12px;
+}
+.RT4 {
+  height: 150px;
+  margin: 10px;
+
+  background: rgba(57, 84, 255, 0.05);
+  border-radius: 12px;
+}
+.RT3 {
+  display: flex;
+  flex-direction: row;
+  padding-left: 20px;
+}
+.RT3-IMG {
+  width: 68px;
+  height: 68px;
+
+  border-radius: 12px;
+  padding-top: 20px;
+  padding-left: 10px;
+}
+.RT3-CONT {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 10px;
+}
+.RT3-CONT-Name {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+}
+.RT3-CONT-role {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+}
+.RT4 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 10px;
+}
+.RT4-T {
+  font-weight: 500;
+}
+.RT4-TI {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.RT4-N {
+  font-weight: 700;
+  font-size: 33px;
+  line-height: 139.1%;
+}

@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  background-color: #e5e5e5;
 }
 
 .App-logo {
@@ -23,9 +24,21 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+:root {
+  --col1: #3954ff;
+  --col2: rgba(57, 84, 255, 0.05);
+}
 
 .App-link {
   color: #61dafb;
+}
+
+.main-container {
+  display: grid;
+  grid-template-columns: 14rem auto;
+  /* background-color: #e5e5e5; */
+  background: #fafbfd;
+  overflow: hidden;
 }
 
 @keyframes App-logo-spin {

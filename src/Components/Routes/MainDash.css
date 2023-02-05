@@ -1,0 +1,93 @@
+.MainDash {
+  display: flex;
+  flex-direction: column;
+  margin: 0.5rem;
+  position: relative;
+  width: 100%;
+}
+.header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding-top: 80px;
+}
+.dashboard-components {
+  display: grid;
+  position: absolute;
+  top: 200px;
+  gap: 20px;
+  grid-template-columns: auto auto;
+  justify-content: center;
+  width: 100%;
+}
+.dashboardlast {
+  position: absolute;
+  top: 580px;
+  left: 40px;
+  width: 55%;
+  background-color: white;
+  display: flex;
+  height: 417.06px;
+}
+.Performance {
+  position: absolute;
+  width: 341px;
+  height: 418.06px;
+  top: 580px;
+  left: 650px;
+  box-shadow: 0px 13px 18px rgba(57, 84, 255, 0.04);
+  border-radius: 12px;
+  /* left: 1061px;
+top: 547px; */
+
+  background: #ffffff;
+}
+.Performance > span {
+  font-weight: bold;
+}
+.icons-sub {
+  padding: 1.5rem;
+}
+.PerformanceContainer {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  height: 88px;
+}
+.class-ll {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding-left: 15px;
+  padding-bottom: 15px;
+  padding-top: 15px;
+}
+.class-ii {
+  padding-left: 10px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+}
+.Name {
+  font-weight: bold;
+  padding-top: 5px;
+}
+.class-iii {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+  margin-top: 20px;
+  width: 10%;
+  background-color: #3954ff;
+}
+.score {
+  background-color: #3954ff;
+  color: #ffffff;
+}
+.PerformanceContainercontainer {
+  height: 100px;
+}
